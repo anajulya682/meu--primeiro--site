@@ -1,4 +1,39 @@
-h1{
-    background-color:rgb(247, 205, 211);
+*{
+    margin: 0;
+    padding: 0;
 }
+
+:root {
+    --corprimaria: #590d22;
+    --corsecundaria: #800f2f;
+    --cortercearia: #a4133c;
+    --corquaternaria: #c9184a;
+    --corquinaria: #ff4d6d;
+    --corsenaria: #ff758f;
+}
+
+body {
+    background-color: (var(--cortercearia));
+    color: (var(--corsenaria));
+}
+
+.cabecalho{
+     background-color:(var(--corprimaria));
+    display: flex;
+     justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+
+.cabecalho-img{
+ width: 10%;
+border-radius: 100%;
+}
+
+
+
+
+
+
 
